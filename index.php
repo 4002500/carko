@@ -26,23 +26,47 @@
 
 <body>
 
-  <!-- Navigation -->
-  <!-- <nav class="navbar navbar-light bg-light static-top">
+  <!-- Navigation --> 
+<nav class="navbar navbar-light bg-light static-top">
     <div class="container">
       <a class="navbar-brand" href="#">CarKo</a>
 
     </div>
-  </nav> -->
+  </nav> 
 
   <!-- Masthead -->
   <header class="masthead text-white text-center">
-    <div class="overlay text-left">CarKo</div>
+    <div class="overlay text-left"></div>
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">CarKo</h1>
         </div>
       </div>
+
+      <form>
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Province</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Postal Code</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+
+</form>
+
+
     </div>
   </header>
 

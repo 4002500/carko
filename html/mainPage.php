@@ -5,7 +5,7 @@
   </head>
   <body>
     <header>
-     <div class:"container">
+     <div class="container">
        <nav>
          <ul>
           <li><a href="#Blog">Blog</a></li>

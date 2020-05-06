@@ -68,8 +68,9 @@
 
               <div class="card">
 
-
                 <div class="card-body">
+          <p class="text-muted mt-3 text-left">Ottawa (+100km) <a href="#">Change</a></p>
+
                   <form>
 
                     <div class="form-row">
